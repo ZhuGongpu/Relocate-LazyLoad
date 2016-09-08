@@ -1,1 +1,0 @@
-Each file exports a prompt and its action handler.

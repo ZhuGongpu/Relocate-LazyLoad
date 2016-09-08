@@ -1,4 +1,4 @@
-# Isomorphic Questionnaire
+# Relocate-LazyLoad
 
-`React` + `React-Router` + `Redux` + `Webpack` + `Sass` boilerplate.
+React Relocatable or Lazy Loading Higher Order Component.
 
