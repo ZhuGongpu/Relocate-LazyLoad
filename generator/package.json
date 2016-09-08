@@ -1,0 +1,30 @@
+{
+  "name": "code-generator",
+  "version": "1.0.0",
+  "description": "A framework to generate code after a few inquiries inspired by Plop and Inquirer.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --harmony src/index.js"
+  },
+  "keywords": [
+    "generator",
+    "scaffolding",
+    "plop",
+    "inquirer"
+  ],
+  "author": "ZhuGongpu",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "change-case": "^3.0.0",
+    "handlebars": "^4.0.5",
+    "inquirer": "^1.1.2",
+    "minimist": "^1.2.0",
+    "mkdirp": "^0.5.1",
+    "q": "^1.4.1",
+    "username": "^2.2.2"
+  },
+  "bin": {
+    "generate": "src/index.js"
+  }
+}
