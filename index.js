@@ -3,7 +3,7 @@
  */
 
 module.exports = {
-    Questionnaire: require("./lib/Questionnaire.js").default,
-    QuestionTypeCollection: require("./lib/QuestionType").default,
-    QuestionType: require("./lib/QuestionType").QuestionType
+    Relocate: require("./lib/Relocate").default,
+    lazyLoad: require("./lib/LazyLoad").default,
+    createReducer: require("./lib/createReducer").default
 };
