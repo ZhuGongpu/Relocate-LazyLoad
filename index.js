@@ -3,7 +3,7 @@
  */
 
 module.exports = {
-    Relocate: require("./lib/Relocate").default,
+    relocate: require("./lib/Relocate").default,
     lazyLoad: require("./lib/LazyLoad").default,
     createReducer: require("./lib/createReducer").default
 };
